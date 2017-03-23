@@ -1,0 +1,271 @@
+body {
+	background: #066 url(../images/primary-bground.jpg) top center;
+	text-align:center;
+	margin: 0px auto;
+	text-shadow: 0px 1px 0px #f8f8f8;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	min-width: 1000px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+
+}
+
+#header {
+	background:#B3A387 url(../images/headerBG.gif) repeat-x top;
+	height:147px;
+}
+
+h1#iamfernandosanzzi {
+	text-align:left;
+	height:147px; width:660px;
+	background:url(../images/headerLOGO.png) top left no-repeat;
+	text-indent:-9999px;
+	margin: 0 0 0 0;
+	float:left;
+}
+
+#tabs {
+	background:url(images/tabs_bg.png) repeat-x bottom;
+}
+
+.logo {
+	padding:50px 0px;
+	margin: 0px auto;
+}
+
+.portfolio {
+	padding:0px;
+	background:url(../images/shadow.png) top no-repeat;
+}
+
+
+#tab1.portfolio:last-child, #tab2.portfolio:last-child, #tab3.portfolio:last-child {
+	background:url(images/section_last_bg.png) repeat-x bottom;
+}
+
+.portfolio a.marquee, .marquee {
+	height:400px;
+	width:900px;
+	display:block;
+	margin:0px auto;
+	box-shadow: 0px 1px 0px #f8f8f8;
+	-moz-box-shadow: 0px 1px 0px #f8f8f8;
+	-webkit-box-shadow: 0px 1px 0px #f8f8f8;
+	background-position:center;
+}
+
+.marquee2 {
+	margin-top:30px;
+}
+
+.portfolio div {
+	width:900px;
+	margin:0px auto;
+	text-align:left;
+	padding:10px 0px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-style:italic;
+	font-weight:bold;
+	color:#444;
+}
+
+.portfolio div a {
+	color:#444;
+	text-decoration:none;
+}
+
+.portfolio div a:hover {
+	text-decoration:underline;
+}
+
+.portfolio div a span {
+	font-weight:normal;
+	float:none;
+}
+
+.portfolio div span {
+	font-weight:normal;
+	float:right;
+}
+
+.section {
+	clear:both;
+	margin-top:-1px;
+}
+
+.copy {
+	padding:60px 0px;
+	width:750px;
+	margin:0px auto;
+	text-align:justify;
+}
+
+h2 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	font-weight:normal;
+	color:#444;
+	font-style:italic;
+}
+
+
+p {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:17px;
+	line-height:30px;
+	color:#444;
+}
+
+.signature {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	font-weight:normal;
+	color:#444;
+	font-style:italic;
+	margin-top:30px;
+}
+
+.portrait {
+	 float:left;
+	 height:372px;
+	 width:250px;
+	 background:url(images/portrait.png) no-repeat;
+	 margin:10px 20px 20px 0px;
+}
+
+blockquote {
+	font-style:italic;
+	font-size:17px;	
+	line-height:30px;
+	color:#666;
+	padding:20px;
+}
+
+
+.screenshot {
+	margin:0px auto;
+	box-shadow: 0px 1px 0px #f8f8f8;
+	-moz-box-shadow: 0px 1px 0px #f8f8f8;
+	-webkit-box-shadow: 0px 1px 0px #f8f8f8;
+	width:900px;
+	margin-top:30px;
+	background-position:center !important;
+}
+
+h1.landing {
+	font-size:30px;
+	font-weight:normal;
+	color:#444;
+	padding:60px 0px;
+	font-style:italic;
+}
+
+.samples h2 {
+	font-size:15px;
+	font-weight:bold;
+	text-align:justify;
+	width:900px;
+	margin:0px auto;
+	margin-bottom:7px;
+}
+
+.samples {
+	padding:60px 0px 95px 0px;
+}
+
+.samples p {
+	font-size:15px;
+	width:900px;
+	text-align:justify;
+	line-height:24px;
+	margin:0px auto;
+}
+
+a.action {
+	background:url(images/button_sprite.png) repeat-x 0px -103px;
+	border:1px solid #d7d7d7;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0px 1px 0px #f8f8f8;
+	-moz-box-shadow: 0px 1px 0px #f8f8f8;
+	-webkit-box-shadow: 0px 1px 0px #f8f8f8;
+	color:#666;
+	display:block;
+	font:italic bold 14px/45px Georgia, "Times New Roman", Times, serif;
+	height:45px;
+	padding:0px 22px;
+	text-decoration:none;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+a.action:hover, a.action:focus {
+	background:url(images/button_sprite.png) repeat-x 0px -153px;
+	border:1px solid #888;
+	color:#fff;
+	text-shadow: 0px -1px 0px #444;
+}
+
+ul.actionList {
+	width:900px;
+	margin:0px auto;
+	text-align:center;
+	margin-top:30px;
+}
+
+ul.actionList li {
+	display:block;
+	float:left;
+}
+
+ul.actionList li.last {
+	float:right;
+}
+
+ul.actionList li.next {
+	margin-left:10px;
+}
+
+
+@media screen and (max-width: 900px) {
+	.portfolio a.marquee, .marquee, .portfolio div, #tabs ul, .samples h2, .samples p, ul.actionList, .screenshot {
+		width:800px;
+	}
+		
+	#tabs ul li, #tabs ul li a {
+		width:200px;
+	}
+	
+	
+}
+
+@media screen and (max-width: 800px) {
+	.portfolio a.marquee, .marquee, .portfolio div, #tabs ul, .samples h2, .samples p, ul.actionList, .screenshot {
+		width:650px;
+	}
+		
+	#tabs ul li, #tabs ul li a {
+		width:160px;
+	}
+	
+}
+
+@media screen and (max-device-width: 1024px) and (orientation:landscape) {
+
+	#tabs ul li a.active, #tabs ul li a.active:hover {
+		height:51px;
+		margin-top:0px;
+	}
+
+}
+
+@media screen and (max-device-width: 768px) and (orientation:portrait) {
+
+	#tabs ul li a {
+		font-size:17px;
+		line-height:48px;
+	}	
+		
+	.portfolio a.marquee, .marquee, .portfolio div, .samples h2, .samples p, ul.actionList, .screenshot {
+		width:800px;
+	}	
+	
+}
